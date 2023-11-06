@@ -48,7 +48,6 @@ func ResourceBlock(res *tfconfig.Resource) (*hclwrite.Block, error) {
 		return nil, err
 	}
 
-	//TODO: do the edit on resources here
 	return originalResBlock, nil
 }
 
@@ -58,7 +57,6 @@ func DataSourceBlock(ds *tfconfig.Resource) (*hclwrite.Block, error) {
 		return nil, err
 	}
 
-	//TODO: do the edit on resources here
 	return originalResBlock, nil
 }
 
